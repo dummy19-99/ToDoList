@@ -1,0 +1,105 @@
+body {
+    padding: 50px;
+    align-items: center;
+    /*
+    text-align: center;
+    */
+}
+
+.container1 {
+    background-color: rgb(243, 240, 240);
+    padding: 35px 45px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    /* 参考：https://developer.mozilla.org/ja/docs/Web/CSS/box-shadow
+    　ボックスに影を付ける方法がわからなくて調べました。 */
+}
+
+.container2 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+  
+.container2 h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+  
+#addList {
+    display: flex;
+    justify-content: center; 
+    /* 参考：https://developer.mozilla.org/ja/docs/Web/CSS/justify-content 
+    　このタグが覚えませんでしたので調べました。*/
+    align-items: center;
+    text-align: center;
+}
+  
+#ToDo {
+    width: 65%;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+}
+  
+.addBtn {
+    margin-left: 5px;
+    padding: 8px 15px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    background-color: white;
+}
+  
+.container3 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.listForm {
+    width: 90%;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*
+    text-align: center;
+    */
+}
+  
+.checkbox {
+    margin-right: 10px;
+}
+  
+.lists {
+    flex-direction: row;
+    flex-grow: 1; 
+    /* 参考： https://miyattiblog.com/explanation-of-flex-property/ 
+    　flexの中で空間を割り当てる方法が覚えませんでしたので調べました。*/
+    list-style: none;
+    font-size: 15px;
+}
+
+
+.througLine {
+    text-decoration: line-through 1.5px black;
+    /* この取り消し線は検索しました。*/
+}
+
+  
+.delBtn {
+    padding: 5px 10px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todolist1.css">
+</head>
+<body>
+  <div class="container1">
+    <div class="container2">
+      <h1>To Do リスト</h1>
+      <form id="addList" method="post">
+        <input type="text" id="ToDo"/>
+        <button type="submit" onclick="addToList" class="addBtn">追加</button>
+      </form>
+    </div>
+
+    <div class="container3">
+      <form class="listForm">
+        <input type="checkbox" class="checkbox"/>
+        <ul class="lists" id="list1">タスク１</ul>
+        <button type="submit" class="delBtn">削除</button>
+      </form>
+
+      <form class="listForm">
+        <input type="checkbox" class="checkbox"/>
+        <ul class="lists" id="list2">ありがとうございます。</ul>
+        <button type="submit" class="delBtn">削除</button>
+      </form>
+
+      <form class="listForm">
+        <input type="checkbox" class="checkbox"/>
+        <ul class="lists" id="list3">再度、感謝申し上げます。笑笑笑笑笑笑笑笑</ul>
+        <button type="submit" class="delBtn">削除</button>
+      </form>
+      <!--　 formの場合、最初divで書きましたが、ネットから探して、変えましたが、目的（課題）とは合わない方法でした。
+      　　　　このHTMLのコメントアウトも調べました。　-->
+    </div>
+  </div>
+  <script src="todolist1.js"></script>
+</body>
+</html>
